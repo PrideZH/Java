@@ -11,13 +11,13 @@ public class App {
 	
 	public static void main(String[] args) {
 		// 生成迷宫
-		int[][] createMaze = new Maze().createMaze(W, H);
+		int[][] maze = new Maze().createMaze(W, H);
 		// 写mcfunction文件
-		writeFunction(createMaze);
+		writeFunction(maze);
 		System.out.println("生成成功");
 	}
 
-	public static void writeFunction(int[][] createMaze) {
+	public static void writeFunction(int[][] maze) {
 		BufferedWriter bw = null;
 		try {
 			bw = new BufferedWriter(new FileWriter("migo.mcfunction"));
@@ -26,7 +26,7 @@ public class App {
 					// 底部
 					bw.write("setblock ~" + i + " ~-1 ~" + j + " minecraft:quartz_block 0 replace");
 					bw.newLine();
-					if(0 ==createMaze[j][i]) { // 墙壁
+					if(0 ==maze[j][i]) { // 墙壁
 						bw.write("setblock ~" + i + " ~ ~" + j + " minecraft:quartz_block 0 replace");
 						bw.newLine();
 						bw.write("setblock ~" + i + " ~1 ~" + j + " minecraft:quartz_block 0 replace");

@@ -8,7 +8,7 @@ public class Maze {
 	private ArrayList<Search> searchList = new ArrayList<>(); // 存放待搜索点
 	private Random random = new Random();
 	
-	private int[][] move = {{0, -2}, {0, 2}, {-2, 0}, {2, 0}};
+	private int[][] move = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
 	private int w, h; // 地图大小
 	private int[][] maze;
 	
@@ -41,16 +41,15 @@ public class Maze {
 	
 	private void dig(Search search) {
 		maze[search.y][search.x] = 1;
-		maze[(search.y + search.superY) / 2][(search.x + search.superX) / 2] = 1;
+		maze[search.digY][search.digX] = 1;
 		// 搜索4个方向 添加搜索点
 		for(int i = 0; i < 4; ++i)
 		{
-			int x = search.x + move[i][0], y = search.y + move[i][1]; // 获得下一步搜索位置
+			int x = search.x + 2 * move[i][0], y = search.y + 2 * move[i][1]; // 获得下一步搜索位置
 			if(x < 0 || x > w - 1 || y < 0 || y > h - 1) continue; // 越界
 			else if(maze[y][x] == 1) continue; // 连通迷宫
 			if(!isInList(x, y)){ // 搜索点存在时不在添加
-				searchList.add(new Search(x, y, search.x, search.y));
-				maze[y][x] = 1;
+				searchList.add(new Search(x, y, search.x + move[i][0], search.y + move[i][1]));
 			}
 		}
 	}
