@@ -9,13 +9,15 @@
 
 ### 效果
 
-![image-20200802203325631](images/MCMaze0.png)
+![MCMaze](images/MCMaze.png)
 
 ![image-20200802203400173](images/MCMaze1.png)
 
+![MCMaze2](images/MCMaze2.png)
+
 ### 使用
 
-- 运行后在根目录下生成migo.mcfunction文件
-- 将该文件复制到.minecraft\saves\test\data\functions\migo（test是一个存档的名字，如果没有某一级文件夹就新建）
-- 进入游戏，运行指令`/reload`  后运行 `/function migo:migo`
+- 生成迷宫后导出maze.mcfunction文件
+- 将该文件复制到.minecraft\saves\test\data\functions\maze（test是一个存档的名字，如果没有某一级文件夹就新建）
+- 进入游戏，运行指令`/reload`  后运行 `/function maze:maze`
 
