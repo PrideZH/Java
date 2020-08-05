@@ -26,6 +26,7 @@ public class AppFrm extends JFrame {
 	private Maze maze = new Maze();
 
 	public AppFrm() {
+		setTitle("MC迷宫生成");
 		setSize(WIDTH, HEIGHT);
 		setResizable(false);
 		setLocationRelativeTo(null);

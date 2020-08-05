@@ -22,7 +22,7 @@ public class MazePane extends JPanel {
 	
 	public void drawMaze(int[][] maze) {
 		this.maze = maze;
-		// 舍长显示的迷宫大小位置
+		// 设置显示的迷宫大小及位置
 		int h, w;
 		if(maze.length > maze[0].length) {
 			h = HEIGHT;
@@ -50,10 +50,10 @@ public class MazePane extends JPanel {
 			for(int i = 0; i < maze.length; i++) {
 				for(int j = 0; j < maze[0].length; j++) {
 					if(0 == maze[i][j]) {
-						g.fillRect((int) (j * this.size + this.x), 
-								(int) (i * this.size + this.y),
-								(int) this.size,
-								(int) this.size);
+						g.fillRect((int) (j * this.size + this.x - 1), 
+								(int) (i * this.size + this.y - 1),
+								(int) this.size + 1,
+								(int) this.size + 1);
 					}
 				}
 			}
