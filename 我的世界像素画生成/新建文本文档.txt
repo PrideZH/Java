@@ -1,0 +1,38 @@
+List<Block> blocks = new ArrayList<>();
+
+		// 获得Gson
+		GsonBuilder builder = new GsonBuilder();
+		builder.setPrettyPrinting();
+		Gson gson = builder.create();
+
+		try {
+			String configPath = 
+App.class.getResource("/resources").getFile();
+			configPath = java.net.URLDecoder.decode(configPath,"utf-8");
+			File file = new File(configPath);
+			System.out.println(file);
+			File[] listFiles = file.listFiles();
+			
+			for(File f : listFiles) {
+				BufferedImage bfi = ImageIO.read(f);
+				Image image = bfi.getScaledInstance(1, 1, Image.SCALE_DEFAULT);
+				BufferedImage bufferedImage2 = new BufferedImage(1, 1, BufferedImage.TYPE_INT_RGB);
+				Graphics g = bufferedImage2.getGraphics();
+				g.drawImage(image, 0, 0, 1, 1, null);
+				int pixel = bufferedImage2.getRGB(0, 0);
+				Block block = new Block();
+				block.R = 0xff & (pixel >> 16);
+				block.G = 0xff & (pixel >> 8);
+				block.B = 0xff & pixel ;
+				String fileName =new String("minecraft:" + f.getName().substring(0,f.getName().lastIndexOf(".")));
+				block.blockName = fileName;
+				blocks.add(block);
+	           
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		 String json = gson.toJson(blocks);
+
+         System.out.println(json);
+	

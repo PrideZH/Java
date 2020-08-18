@@ -1,0 +1,446 @@
+[
+  {
+    "blockName": "minecraft:cobblestone",
+    "R": 169,
+    "G": 169,
+    "B": 169
+  },
+  {
+    "blockName": "minecraft:concrete 0",
+    "R": 208,
+    "G": 214,
+    "B": 215
+  },
+  {
+    "blockName": "minecraft:concrete 1",
+    "R": 225,
+    "G": 98,
+    "B": 1
+  },
+  {
+    "blockName": "minecraft:concrete 10",
+    "R": 96,
+    "G": 59,
+    "B": 31
+  },
+  {
+    "blockName": "minecraft:concrete 11",
+    "R": 73,
+    "G": 91,
+    "B": 36
+  },
+  {
+    "blockName": "minecraft:concrete 12",
+    "R": 143,
+    "G": 34,
+    "B": 34
+  },
+  {
+    "blockName": "minecraft:concrete 13",
+    "R": 9,
+    "G": 11,
+    "B": 16
+  },
+  {
+    "blockName": "minecraft:concrete 2",
+    "R": 36,
+    "G": 138,
+    "B": 200
+  },
+  {
+    "blockName": "minecraft:concrete 3",
+    "R": 242,
+    "G": 176,
+    "B": 21
+  },
+  {
+    "blockName": "minecraft:concrete 4",
+    "R": 93,
+    "G": 168,
+    "B": 24
+  },
+  {
+    "blockName": "minecraft:concrete 5",
+    "R": 214,
+    "G": 101,
+    "B": 143
+  },
+  {
+    "blockName": "minecraft:concrete 6",
+    "R": 55,
+    "G": 58,
+    "B": 62
+  },
+  {
+    "blockName": "minecraft:concrete 7",
+    "R": 22,
+    "G": 120,
+    "B": 137
+  },
+  {
+    "blockName": "minecraft:concrete 8",
+    "R": 101,
+    "G": 32,
+    "B": 157
+  },
+  {
+    "blockName": "minecraft:concrete 9",
+    "R": 44,
+    "G": 46,
+    "B": 142
+  },
+  {
+    "blockName": "minecraft:concrete_magenta",
+    "R": 169,
+    "G": 48,
+    "B": 159
+  },
+  {
+    "blockName": "minecraft:concrete_powder 0",
+    "R": 216,
+    "G": 218,
+    "B": 219
+  },
+  {
+    "blockName": "minecraft:concrete_powder 1",
+    "R": 220,
+    "G": 120,
+    "B": 19
+  },
+  {
+    "blockName": "minecraft:concrete_powder 10",
+    "R": 62,
+    "G": 65,
+    "B": 156
+  },
+  {
+    "blockName": "minecraft:concrete_powder 11",
+    "R": 119,
+    "G": 80,
+    "B": 50
+  },
+  {
+    "blockName": "minecraft:concrete_powder 12",
+    "R": 104,
+    "G": 127,
+    "B": 37
+  },
+  {
+    "blockName": "minecraft:concrete_powder 13",
+    "R": 170,
+    "G": 55,
+    "B": 48
+  },
+  {
+    "blockName": "minecraft:concrete_powder 14",
+    "R": 28,
+    "G": 30,
+    "B": 34
+  },
+  {
+    "blockName": "minecraft:concrete_powder 2",
+    "R": 188,
+    "G": 80,
+    "B": 180
+  },
+  {
+    "blockName": "minecraft:concrete_powder 3",
+    "R": 63,
+    "G": 166,
+    "B": 206
+  },
+  {
+    "blockName": "minecraft:concrete_powder 4",
+    "R": 230,
+    "G": 195,
+    "B": 50
+  },
+  {
+    "blockName": "minecraft:concrete_powder 5",
+    "R": 133,
+    "G": 194,
+    "B": 41
+  },
+  {
+    "blockName": "minecraft:concrete_powder 6",
+    "R": 223,
+    "G": 139,
+    "B": 170
+  },
+  {
+    "blockName": "minecraft:concrete_powder 7",
+    "R": 74,
+    "G": 78,
+    "B": 82
+  },
+  {
+    "blockName": "minecraft:concrete_powder 8",
+    "R": 35,
+    "G": 145,
+    "B": 154
+  },
+  {
+    "blockName": "minecraft:concrete_powder 9",
+    "R": 125,
+    "G": 50,
+    "B": 171
+  },
+  {
+    "blockName": "minecraft:diamond_block",
+    "R": 105,
+    "G": 223,
+    "B": 218
+  },
+  {
+    "blockName": "minecraft:dirt",
+    "R": 121,
+    "G": 85,
+    "B": 58
+  },
+  {
+    "blockName": "minecraft:emerald_block",
+    "R": 95,
+    "G": 233,
+    "B": 134
+  },
+  {
+    "blockName": "minecraft:gold_block",
+    "R": 255,
+    "G": 241,
+    "B": 68
+  },
+  {
+    "blockName": "minecraft:gravel",
+    "R": 88,
+    "G": 86,
+    "B": 82
+  },
+  {
+    "blockName": "minecraft:iron_block",
+    "R": 230,
+    "G": 230,
+    "B": 230
+  },
+  {
+    "blockName": "minecraft:lapis_block",
+    "R": 40,
+    "G": 68,
+    "B": 138
+  },
+  {
+    "blockName": "minecraft:log 0",
+    "R": 105,
+    "G": 84,
+    "B": 51
+  },
+  {
+    "blockName": "minecraft:log 1",
+    "R": 47,
+    "G": 30,
+    "B": 11
+  },
+  {
+    "blockName": "minecraft:log 2",
+    "R": 234,
+    "G": 223,
+    "B": 223
+  },
+  {
+    "blockName": "minecraft:log 3",
+    "R": 124,
+    "G": 94,
+    "B": 39
+  },
+  {
+    "blockName": "minecraft:planks 0",
+    "R": 188,
+    "G": 152,
+    "B": 98
+  },
+  {
+    "blockName": "minecraft:planks 1",
+    "R": 128,
+    "G": 94,
+    "B": 54
+  },
+  {
+    "blockName": "minecraft:planks 2",
+    "R": 215,
+    "G": 203,
+    "B": 141
+  },
+  {
+    "blockName": "minecraft:planks 3",
+    "R": 184,
+    "G": 135,
+    "B": 100
+  },
+  {
+    "blockName": "minecraft:planks 4",
+    "R": 186,
+    "G": 104,
+    "B": 59
+  },
+  {
+    "blockName": "minecraft:planks 5",
+    "R": 73,
+    "G": 47,
+    "B": 23
+  },
+  {
+    "blockName": "minecraft:quartz_block",
+    "R": 236,
+    "G": 232,
+    "B": 226
+  },
+  {
+    "blockName": "minecraft:sand 0",
+    "R": 213,
+    "G": 204,
+    "B": 154
+  },
+  {
+    "blockName": "minecraft:sand 1",
+    "R": 168,
+    "G": 85,
+    "B": 30
+  },
+  {
+    "blockName": "minecraft:stone 0",
+    "R": 127,
+    "G": 127,
+    "B": 127
+  },
+  {
+    "blockName": "minecraft:stone 1",
+    "R": 110,
+    "G": 77,
+    "B": 65
+  },
+  {
+    "blockName": "minecraft:stone 2",
+    "R": 165,
+    "G": 115,
+    "B": 96
+  },
+  {
+    "blockName": "minecraft:stone 3",
+    "R": 208,
+    "G": 208,
+    "B": 211
+  },
+  {
+    "blockName": "minecraft:stone 4",
+    "R": 208,
+    "G": 208,
+    "B": 211
+  },
+  {
+    "blockName": "minecraft:stone 5",
+    "R": 173,
+    "G": 174,
+    "B": 165
+  },
+  {
+    "blockName": "minecraft:stone 6",
+    "R": 132,
+    "G": 133,
+    "B": 132
+  },
+  {
+    "blockName": "minecraft:wool 0",
+    "R": 222,
+    "G": 226,
+    "B": 227
+  },
+  {
+    "blockName": "minecraft:wool 1",
+    "R": 235,
+    "G": 107,
+    "B": 10
+  },
+  {
+    "blockName": "minecraft:wool 10",
+    "R": 111,
+    "G": 36,
+    "B": 164
+  },
+  {
+    "blockName": "minecraft:wool 11",
+    "R": 49,
+    "G": 51,
+    "B": 150
+  },
+  {
+    "blockName": "minecraft:wool 12",
+    "R": 106,
+    "G": 66,
+    "B": 36
+  },
+  {
+    "blockName": "minecraft:wool 13",
+    "R": 79,
+    "G": 101,
+    "B": 31
+  },
+  {
+    "blockName": "minecraft:wool 14",
+    "R": 152,
+    "G": 35,
+    "B": 33
+  },
+  {
+    "blockName": "minecraft:wool 15",
+    "R": 14,
+    "G": 15,
+    "B": 20
+  },
+  {
+    "blockName": "minecraft:wool 2",
+    "R": 180,
+    "G": 59,
+    "B": 170
+  },
+  {
+    "blockName": "minecraft:wool 3",
+    "R": 48,
+    "G": 162,
+    "B": 210
+  },
+  {
+    "blockName": "minecraft:wool 4",
+    "R": 246,
+    "G": 188,
+    "B": 30
+  },
+  {
+    "blockName": "minecraft:wool 5",
+    "R": 103,
+    "G": 177,
+    "B": 24
+  },
+  {
+    "blockName": "minecraft:wool 6",
+    "R": 234,
+    "G": 124,
+    "B": 159
+  },
+  {
+    "blockName": "minecraft:wool 7",
+    "R": 59,
+    "G": 63,
+    "B": 66
+  },
+  {
+    "blockName": "minecraft:wool 8",
+    "R": 134,
+    "G": 134,
+    "B": 126
+  },
+  {
+    "blockName": "minecraft:wool 9",
+    "R": 21,
+    "G": 129,
+    "B": 141
+  }
+]
